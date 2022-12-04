@@ -144,7 +144,7 @@ void SrArifmColums(int[,] array)
         {
             srArifm += array[i, j];
         }
-        Console.Write($" {(float)srArifm / row:f2}");
+        Console.Write($" {srArifm / row:f2}");
     }
     Console.WriteLine();
 }
